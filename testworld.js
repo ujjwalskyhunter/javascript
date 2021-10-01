@@ -13,7 +13,7 @@ $('.thumbnail-wrapper img').hover(
 );
 
 var playGif = function(){
-   var top = parseInt(currentGifId.css('top'))-step;
+//    var top = parseInt(currentGifId.css('top'))-step;
    var max = currentGifId.height();
    console.log(top,max)
    if(max+top<=0){
