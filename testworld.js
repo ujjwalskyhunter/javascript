@@ -6,4 +6,4 @@ $('.thumbnail-wrapper img').hover(
       currentGifId = $(this)
       gifTimer = setInterval(playGif,500);
    },
-)
+
